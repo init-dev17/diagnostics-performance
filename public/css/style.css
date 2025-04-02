@@ -1,0 +1,14 @@
+:root {
+    --black-bg-color: #000000;
+    --main-bg-color: #191A1F;
+    --light-blue-color: #578EF8;
+    --white-color: #D6D6D7;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+
+
