@@ -14,13 +14,16 @@ for(let site in presentation) {
   const newSlide = document.createElement("div");
   newSlide.classList.add("swiper-slide");
   newSlide.id = `slide${Number(site)+1}`;
+  
+
+  // bon URL : diagnostics-performance/public/assets/img/
   newSlide.style.background = `linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(/diagnostics-performance/public/assets/img/${presentation[site].img}) fixed center/cover`;
 
-  // bon URL
-  //newSlide.style.background = `url(/diagnostics-performance/public/assets/img/${presentation[site].img}) fixed center/cover`;
-
-  // debug
+  // debug dev : ../public/assets/img/
   // newSlide.style.background = `linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../public/assets/img/${presentation[site].img}) fixed center/cover`;
+
+
+
 
 
 //   const newCard = document.createElement("div");

@@ -30,7 +30,7 @@ export const presentation = [
     {
       "name": "READY PLAY EARTH2",
       "text": "Earth2 build a 1:1 scale virtual Earth that will not only allow you to play, explore and experience.",
-      "img": "pexels-mat-brown-150387-952338.jpg",
+      "img": "pexels-daniel-andraski-197681005-13065692.jpg",
       "url": "https://init-dev17.github.io/101---data-Earth2",
       "font": "Audiowide",
       "fontSize": "1.8rem",
@@ -39,7 +39,7 @@ export const presentation = [
     {
       "name": "Eisenhower matrix",
       "text": "The Eisenhower Matrix is a productivity, prioritization, and time-management framework designed to help you prioritize a list of tasks or agenda items.",
-      "img": "pexels-zhuzichun-229759257-12086936.jpg",
+      "img": "pexels-amg-112460.jpg",
       "url": "https://init-dev17.github.io/",
       "font": "IndieFlower",
       "fontSize": "3.1rem",
@@ -47,5 +47,7 @@ export const presentation = [
     },
     
     
+
+
     
   ];
