@@ -60,31 +60,36 @@
     .navbar {
         justify-content: center;
     
-    & .navigation {
+    & #navigation { 
         position: fixed;
         justify-content: flex-start;
-        top: 60px;
+        top: 0;
         left: 0;
-        /* display: none !important;  */
         flex-direction: column;
         margin: 0 0;
-        /* gap: 5vh; */
+        gap: 2vh;
         height: 100%;
         padding: 1rem;
-        background-color: rgb(28, 28, 73);
+        background-color: rgba(0, 0, 0, 0.738);
         width: calc(100vw - 10rem);
-
-
+        z-index: 10;
+        padding-top: 5.5rem; 
+        
+        
         & li {
             padding: 1rem 0.5rem;
         }
     }
+    & #navigation.hidden {
+        display: none;
+    }
+
     } 
     .burger-menu {
-        position: absolute;
-        background-color: red;
+        position: absolute; 
         display: block !important;
         left: 20px;
+        z-index: 20;
         
     }
     

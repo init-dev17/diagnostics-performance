@@ -18,18 +18,19 @@
 
     <script src="./scripts/swipe-images.js" type="module" defer></script>
     <script src="./scripts/index.js" type="module" defer></script>
+    <script src="./scripts/swipe-instructions.js" type="module" defer></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
-    <script src="./scripts/swiper.js" defer></script>
+    <script src="./scripts/swiper.js" type="module" defer></script>
 </head>
 <body>
 
     <nav class="navbar">
-        <a href="" class="burger-menu"><img src="./public/assets/icons/mdi--star-check.svg" alt=""></a>
+        <a href="" class="burger-menu"><img src="./public/assets/icons/iconamoon--menu-burger-horizontal-fill.svg" alt=""></a>
         <a href="" class="logo"><img class="logo-img" src="./public/assets/logos/logo.png" alt=""></a>
         <span class="title-logo">mamad diag performance
         </span>
-        <ul class="navigation">
+        <ul id="navigation" class="navigation hidden">
            <li><a href="">Accueil</a></li>
            <li><a href="">Services</a></li>
            <li><a href="">Avis</a></li>
