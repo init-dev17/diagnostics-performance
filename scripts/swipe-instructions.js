@@ -17,10 +17,10 @@ for(let site in presentation) {
   
 
   // bon URL : diagnostics-performance/public/assets/img/
-  // newSlide.style.background = `linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(/diagnostics-performance/public/assets/img/${presentation[site].img}) fixed center/cover`;
+  newSlide.style.background = `linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(/diagnostics-performance/public/assets/img/${presentation[site].img}) fixed center/cover`;
 
   // debug dev : ../public/assets/img/
-  newSlide.style.background = `linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../public/assets/img/${presentation[site].img}) fixed center/cover`;
+  //   newSlide.style.background = `linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../public/assets/img/${presentation[site].img}) fixed center/cover`;
 
   // https://i17.io/diagnostics-performance/public/assets/img/pexels-19x14-8478247.jpg
 
