@@ -3,6 +3,15 @@ export const presentation = [
     {
       "name": "O'Coffee",
       "text": "Projet MVC O'Clock auto-hébergé sur serveur nginx ",
+      "img": "bg-montagne.jpg",
+      "url": "http://ocoffee.init17.com/",
+      "font": "Montserrat",
+      "fontSize": "4rem",
+      "color": "",
+    }, 
+    {
+      "name": "O'Coffee",
+      "text": "Projet MVC O'Clock auto-hébergé sur serveur nginx ",
       "img": "pexels-19x14-8478247.jpg",
       "url": "http://ocoffee.init17.com/",
       "font": "Montserrat",

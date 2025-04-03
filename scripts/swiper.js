@@ -3,10 +3,10 @@ var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     loop: true,
     speed: 1000,
-    // pagination: {
-    //   el: ".swiper-pagination",
-    //   clickable: true,
-    // },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
     autoplay: {
         enabled: true,
         delay: 5500,
