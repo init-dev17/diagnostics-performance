@@ -1,6 +1,6 @@
 const swiper = new Swiper(".swiper", {
     slidesPerView: 1,
-    spaceBetween: 30,
+    spaceBetween: 0,
     loop: true,
     speed: 1000,
     // pagination: {
