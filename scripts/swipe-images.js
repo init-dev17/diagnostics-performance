@@ -1,9 +1,27 @@
 
 export const presentation = [
     {
+      "name": "Mountain vacations",
+      "text": "Exercice d'intégration web en HTML/SASS",
+      "img": "pexels-mikebirdy-1104768.jpg",
+      "url": "https://init-dev17.github.io/SASS-TP1-Montagne/",
+      "font": "Merriweather",
+      "fontSize": "2.7rem",
+      "color": "",
+    },
+    {
       "name": "O'Coffee",
       "text": "Projet MVC O'Clock auto-hébergé sur serveur nginx ",
-      "img": "pexels-19x14-8478247.jpg",
+      "img": "pexels-srattha-nualsate-2695613-13060851.jpg",
+      "url": "http://ocoffee.init17.com/",
+      "font": "Montserrat",
+      "fontSize": "4rem",
+      "color": "",
+    }, 
+    {
+      "name": "O'Coffee",
+      "text": "Projet MVC O'Clock auto-hébergé sur serveur nginx ",
+      "img": "pexels-thisisengineering-3862610.jpg",
       "url": "http://ocoffee.init17.com/",
       "font": "Montserrat",
       "fontSize": "4rem",
@@ -18,15 +36,7 @@ export const presentation = [
       "fontSize": "3rem",
       "color": "#ede4d0",
     },
-    {
-      "name": "Mountain vacations",
-      "text": "Exercice d'intégration web en HTML/SASS",
-      "img": "pexels-mikebirdy-1104768.jpg",
-      "url": "https://init-dev17.github.io/SASS-TP1-Montagne/",
-      "font": "Merriweather",
-      "fontSize": "2.7rem",
-      "color": "",
-    },
+    
     {
       "name": "READY PLAY EARTH2",
       "text": "Earth2 build a 1:1 scale virtual Earth that will not only allow you to play, explore and experience.",
@@ -39,7 +49,7 @@ export const presentation = [
     {
       "name": "Eisenhower matrix",
       "text": "The Eisenhower Matrix is a productivity, prioritization, and time-management framework designed to help you prioritize a list of tasks or agenda items.",
-      "img": "pexels-amg-112460.jpg",
+      "img": "pexels-glebkrs-6722098.jpg",
       "url": "https://init-dev17.github.io/",
       "font": "IndieFlower",
       "fontSize": "3.1rem",
